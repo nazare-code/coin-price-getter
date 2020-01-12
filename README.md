@@ -10,8 +10,8 @@ $ npm install
 ## Usage
 
 You can specify currency or frequency using ENV variables.  
-Note: default settings are LTC market [from TO] and 5 seconds.  
+Note: default settings are BTC-LTC market [from TO] and 5 seconds.  
 
 For example, you can get Ethereum price every 3 seconds:  
 
-$ COIN=ETH FREQ=3 node index.js  
+$ COIN=BTC-ETH FREQ=3 node index.js  
